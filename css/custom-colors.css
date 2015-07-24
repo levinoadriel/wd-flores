@@ -1,0 +1,53 @@
+
+/* Main stylesheet color */
+.not-found-content a,
+.comment-block .user-nick,
+.comment-block .user-nick a,
+.pagination .page-numbers:not(.current),
+.article-date,
+h1, h2, h3,
+h4, h5, h6,
+h1 a, h2 a, h3 a,
+h4 a, h5 a, h6 a,
+.countdown > span,
+.countdown .countdown-content .numbers,
+#calendar_wrap caption,
+#calendar_wrap tfoot td a,
+.footer a {
+	color: #5a394e;
+}
+hr.style-4,
+.pagination .page-numbers.next:hover,
+.pagination .page-numbers.prev:hover,
+.pagination .page-numbers.current:hover,
+.pagination .page-numbers.current,
+.button, .ribbon-block,
+.main-menu,
+#calendar_wrap thead,
+#calendar_wrap table td#today,
+.md-overlay {
+	background-color: #5a394e;
+}
+.pagination .page-numbers.next,
+.pagination .page-numbers.prev {
+	border: 1px solid #5a394e;
+}
+
+
+/* Main content background color */
+.break-corners,
+.border-boxes,
+.active.boxed,
+.boxed {
+	background-color: #f1f1f1;
+}
+
+
+/* Body Background color */
+.border-boxes > div, body {
+	background-color: #d0dedb;
+}
+/* Body Background texture */
+.border-boxes > div, body {
+	background-image: url(../images/background-texture.png);
+}

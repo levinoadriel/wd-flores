@@ -1,0 +1,143 @@
+
+@media only screen and (max-width: 600px) {
+
+	.paragraph-row {
+		display: block;
+		width: 100%;
+	}
+
+	.paragraph-row.horizontal-sidebar > div > div,
+	.paragraph-row > div {
+		float: none;
+		width: 100%!important;
+		margin-left: 0px;
+		border-top: 1px solid rgba(0,0,0,0.07);
+		margin-top: 15px;
+		padding-top: 15px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.paragraph-row > div:first-child {
+		margin-left: 0px;
+		border-top: 0px;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+
+	.photo-gallery-photos > .paragraph-row > .column7 {
+		display: none;
+	}
+
+	.md-modal {
+		width: 90%;
+		min-width: 280px;
+	}
+
+	.md-content > div {
+		margin: 0px 20px;
+		max-height: 400px;
+	}
+
+	.md-close {
+		top: -15px;
+		right: -15px;
+	}
+
+	li li .comment-block {
+		padding-left: 0px;
+	}
+
+	.comment-block .comment-info .time-stamp {
+		float: none;
+		display: block;
+		padding-bottom: 15px;
+	}
+
+	.input-block textarea,
+	.input-block select,
+	.input-block input {
+		width: 100%;
+	}
+
+	.comment-block .comment-text .time-stamp {
+		display: none;
+	}
+
+	.footer ul {
+		float: none;
+		display: block;
+		text-align: center;
+		padding-bottom: 18px;
+		padding-right: 18px;
+	}
+
+	.footer p {
+		text-align: center;
+		width: 98%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	h1 {
+		font-size: 27px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	h3 {
+		font-size: 22px;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	h5 {
+		font-size: 17px;
+	}
+
+	h6 {
+		font-size: 15px;
+	}
+
+	.big-post .article-date {
+		display: block;
+		width: 100%;
+		margin-bottom: 20px;
+		float: none;
+		padding-bottom: 10px;
+		border-bottom: 1px solid rgba(0,0,0,0.04);
+		margin-bottom: 15px;
+	}
+
+	.big-post .article-date > div {
+		display: inline-block;
+	}
+
+	.big-post .article-content {
+		margin-left: 0px;
+	}
+
+	.team-member .member-photo {
+		float: none;
+		width: 126px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.team-member:after {
+		display: none;
+	}
+
+	.team-member .member-content {
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+
+
+
+}
