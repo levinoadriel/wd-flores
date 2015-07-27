@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<!-- BEGIN html -->
+<html lang = "en">
+<!-- BEGIN head -->
+<head>
+  <title>{{ page.title }}</title>
+  <!-- Meta Tags -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  {% include styles.html %}
+<!-- END head -->
+</head>
+<!-- BEGIN body -->
+<body>
+<div class="md-modal md-effect-5" id="modal-1">
+  <div class="md-content">
+    <button class="md-close">Close</button>
+    <div>
+      <p>Loading..</p>
+    </div>
+  </div>
+</div>
+<div class="md-overlay"></div>
+<!-- BEGIN .boxed -->
+<div class="boxed active inset-corners" rel="10">
+  {% include header.html %}
+  <!-- BEGIN .content -->
+  <div class="content">
+    
+    <!-- BEGIN .wrapper -->
+    <div class="wrapper">
+      <div class="break-corners left bottom"></div>
+      <div class="break-corners right bottom"></div>
+      <!-- BEGIN .single-content -->
+      <div class="single-content">
+
+        <div class="big-post">
+          <div class="article-date">
+            <strong>{{ page.day }}</strong>
+            <i>{{ page.year }}<br/>{{ page.month }}</i>
+            <hr />
+            <!-- <div>
+              <a href="#" class="soc-share i-facebook"><i class="fa fa-facebook"></i>Facebook<span class="count">2.1k</span></a>
+            </div>
+            <div>
+              <a href="#" class="soc-share i-twitter"><i class="fa fa-twitter"></i>Twitter<span class="count">390</span></a>
+            </div>
+            <div>
+              <a href="#" class="soc-share i-google"><i class="fa fa-google-plus"></i>Google+<span class="count">261</span></a>
+            </div>
+            <div>
+              <a href="#" class="soc-share i-pinterest"><i class="fa fa-pinterest"></i>Pinterest<span class="count">342</span></a>
+            </div>
+            <div>
+              <a href="#" class="soc-share i-linkedin"><i class="fa fa-linkedin"></i>Linkedin<span class="count">20</span></a>
+            </div> -->
+          </div>
+          <div class="article-content">
+            {{ content }}
+          </div>
+        </div>
+      <!-- END .single-content -->
+      </div>
+    <!-- END .wrapper -->
+    </div>
+    
+  <!-- END .content -->
+  </div>
+  {% include footer.html %}
+<!-- END .boxed -->
+</div> 
+{% include scripts.html %}
+<!-- END body -->
+</body>
+<!-- END html -->
+</html>

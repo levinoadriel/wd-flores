@@ -1,0 +1,53 @@
+---
+layout: default
+title: Preparation
+---
+
+<!-- BEGIN .title-block -->
+<div class="title-block">
+  <h2>{{ page.title }}</h2>
+
+  <div class="clear-float"></div>
+  <!-- END .title-block -->
+</div>
+
+<div class="single-content">
+
+  <div class="photo-gallery-thumbs" id="makeMeScrollable">
+    <div class="flexslider" id="slider">
+      <ul class="slides">
+        {% for gallery in site.data.galleries %}
+          {% if gallery.title == page.title %}
+            {% for photo in gallery.photos %}
+            <li>
+              <img src="{{ photo.src }}" />
+              <p class="flex-caption">{{ photo.caption }}</p>
+            </li>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="flexslider" id="carousel">
+      <ul class="slides">
+        {% for gallery in site.data.galleries %}
+          {% if gallery.title == page.title %}
+            {% for photo in gallery.photos %}
+            <li>
+              <img src="{{ photo.src }}" />
+            </li>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="shortcode-content">
+    <hr/>
+    <p>Dicit commune complectitur has id, ne etiam persequeris usu. Vis reque consectetuer in, falli recteque eos an, quas populo in sea. Id vix wisi summo vitae. Ei pro veri graece quaeque, dolor consequat nam ea. Eum error fabulas maiorum ei, utamur volumus maluisset in nec, eos natum ullum accumsan no.</p>
+    <p>Te qui nisl eleifend incorrupte, evertitur pertinacia repudiandae sea ei, mea ex diam honestatis. Ad nec dicat nostro scripserit. Duo in accusam disputationi, possit malorum omittam nec ei. Blandit principes conceptam vel eu, vix feugiat maluisset eu, sea an alii explicari.</p>
+  </div>
+  <a href="photo-gallery.html" class="button"><i class="fa fa-arrow-left left"></i>Go back to all galleries</a>
+
+</div>

@@ -1,0 +1,32 @@
+---
+layout: default
+title: Brandon &amp; Jane
+active_menu: people
+---
+
+<!-- BEGIN .about-content -->
+<div class="about-content">
+  
+  <div class="paragraph-row">
+    {% for family in site.data.families %}
+      <div class="column6" style="margin: 0; padding: 15px; border-left: solid 1px #ddd;">
+
+        <div class="team-member">
+          <div class="member-photo">
+            <img src="{{ family.photo }}" alt="" />
+          </div>
+          <div class="member-content">
+            <h3>{{ family.name }}</h3>
+            <p><span class="member-details">{{ family.role }}</span></p>
+            <p class="toggle-text">{{ family.about }}</p>
+            <!-- <p class="hidden-text">We feel that the sad truth is that many are set up as front, kind of like how organization would conduct business. they will be clear to receive a goldenWe feel that the sad truth is that many are set up as front, kind of like how organization would conduct business. they will be clear to receive a goldenWe feel that the sad truth is that many are set up as front, kind of like how organization would conduct business. they will be clear to receive a goldenWe feel that the sad truth is that many are set up as front, kind of like how organization would conduct business. they will be clear to receive a golden</p> -->
+            <!-- <p><a href="#" class="button md-trigger" data-modal="modal-1" data-content="content-1">More information<i class="fa fa-caret-right right"></i></a></p> -->
+          </div>
+        </div>
+
+      </div>
+    {% endfor %}
+  </div>
+
+<!-- END .about-content -->
+</div>

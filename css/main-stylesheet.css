@@ -303,6 +303,10 @@ i.fa {
 	background: rgba(0,0,0,0.2);
 }
 
+.main-menu ul li.active > a {
+	background: rgba(0,0,0,0.2);
+}
+
 .main-menu li:hover > ul.sub-menu {
 	display: block;
 }

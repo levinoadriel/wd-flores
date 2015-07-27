@@ -1,0 +1,49 @@
+---
+layout: default
+title: Brandon &amp; Jane
+active_menu: journal
+---
+
+<!-- BEGIN .title-block -->
+<div class="title-block">
+  <h2>Our Wedding Journal</h2>
+
+  <div class="clear-float"></div>
+  <!-- END .title-block -->
+</div>
+
+<!-- BEGIN .single-content -->
+<div class="single-content">
+  <div class="shortcode-content">
+    <div class="wp-caption">
+      <a href="images/photos/image-15.jpg" class="lightbox-photo" title="">
+        <img class="size-full" alt="" src="images/photos/image-15.jpg">
+      </a>
+      <p class="wp-caption-text">These are our wedding journal. We're happy if you can raed the journal and be inspired of our love story.</p>
+    </div>
+  </div>
+
+  {% for post in site.posts %}
+    <div class="big-post">
+      <div class="article-date">
+        <strong>{{ post.day }}</strong>
+        <i>{{ post.year }}<br/>{{ post.month }}</i>
+      </div>
+      <div class="article-content">
+        {% if post.image != nil %}
+          <div class="article-photo">
+            <a href="{{ post.url }}"><img src="{{ post.image }}" alt="" /></a>
+          </div>
+        {% endif %}
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.teaser }}</p>
+        <p><a href="{{ post.url }}" class="button">Read More<i class="fa fa-caret-right right"></i></a></p>
+      </div>
+    </div>
+  {% endfor %}
+
+<!-- END .single-content -->
+</div>
+    
+
+

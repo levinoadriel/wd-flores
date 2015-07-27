@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<!-- BEGIN html -->
+<html lang = "en">
+<!-- BEGIN head -->
+<head>
+  <title>{{ page.title }}</title>
+  <!-- Meta Tags -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  {% include styles.html %}
+<!-- END head -->
+</head>
+<!-- BEGIN body -->
+<body>
+<div class="md-modal md-effect-5" id="modal-1">
+  <div class="md-content">
+    <button class="md-close">Close</button>
+    <div>
+      <p>Loading..</p>
+    </div>
+  </div>
+</div>
+<div class="md-overlay"></div>
+<!-- BEGIN .boxed -->
+<div class="boxed active inset-corners" rel="10">
+  {% include header.html %}
+  <!-- BEGIN .content -->
+  <div class="content">
+    
+    <!-- BEGIN .wrapper -->
+    <div class="wrapper">
+      <div class="break-corners left bottom"></div>
+      <div class="break-corners right bottom"></div>
+      {{ content }}
+    <!-- END .wrapper -->
+    </div>
+    
+  <!-- END .content -->
+  </div>
+  {% include footer.html %}
+<!-- END .boxed -->
+</div> 
+{% include scripts.html %}
+<!-- END body -->
+</body>
+<!-- END html -->
+</html>

@@ -1,0 +1,102 @@
+<!-- BEGIN .header -->
+<div class="header">
+
+  <!-- BEGIN .wrapper -->
+  <div class="wrapper">
+
+    <div class="break-corners left top"></div>
+    <div class="break-corners right top"></div>
+
+    <!-- <h1 class="logo-text"><a href="index.html">Flores - 4 February 2013</a></h1> -->
+    <a href="index.html">
+      <!-- <img class="logo-image" src="images/logo.png" alt="" /> -->
+      <div style="background: url('images/logo.png') no-repeat -1px -1px; width: 130px; height: 130px; display: inline-block; vertical-align: middle;"></div>
+      <div style="display: inline-block; vertical-align: middle;">
+        <h1 style="margin-bottom: 0;">Brandon &amp; Jane</h1>
+        <h2 style="margin-bottom: 0;">14 December 2015</h2>
+      </div>
+    </a>
+
+    <!-- END .wrapper -->
+  </div>
+
+  <!-- BEGIN .main-menu -->
+  <div class="main-menu">
+
+    <div class="menu-ribbon left">
+      <div class="ribbon-block ribbon-top"></div>
+      <div class="ribbon-block ribbon-bottom"></div>
+    </div>
+
+    <div class="menu-ribbon right">
+      <div class="ribbon-block ribbon-top"></div>
+      <div class="ribbon-block ribbon-bottom"></div>
+    </div>
+
+    <ul class="transition-active">
+      {% if page.active_menu == "index" %}
+      <li class="active">
+      {% else %}
+      <li>
+      {% endif %}
+        <a href="index.html">Homepage</a>
+      </li>
+
+      {% if page.active_menu == "venue" %}
+      <li class="active">
+      {% else %}
+      <li>
+      {% endif %}
+        <a href="location.html">Venue</a>
+        <ul class="sub-menu">
+          <li><a href="accommodation.html">Accommodation</a></li>
+          <li><a href="travel.html">Travel Info</a></li>
+        </ul>
+      </li>
+
+      {% if page.active_menu == "people" %}
+      <li class="active">
+      {% else %}
+      <li>
+      {% endif %}
+        <a href="people.html">People</a>
+      </li>
+
+      {% if page.active_menu == "program" %}
+      <li class="active">
+      {% else %}
+      <li>
+      {% endif %}
+        <a href="program.html">Program</a>
+      </li>
+
+      {% if page.active_menu == "journal" %}
+      <li class="active">
+      {% else %}
+      <li>
+      {% endif %}
+        <a href="journal.html">Journal</a>
+      </li>
+
+      {% if page.active_menu == "gallery" %}
+      <li class="active">
+      {% else %}
+      <li>
+      {% endif %}
+        <a href="photo-gallery.html">Photo Gallery</a>
+      </li>
+
+      {% if page.active_menu == "rsvp" %}
+      <li class="active">
+      {% else %}
+      <li>
+      {% endif %}
+        <a href="rsvp.html">RSVP</a>
+      </li>
+    </ul>
+
+    <!-- END .main-menu -->
+  </div>
+
+  <!-- END .header -->
+</div>

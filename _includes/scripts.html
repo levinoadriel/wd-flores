@@ -1,0 +1,45 @@
+<!-- Scripts -->
+<script type="text/javascript" src="jscript/jquery-latest.min.js"></script>
+<script type="text/javascript" src="jscript/classie.js"></script>
+<script type="text/javascript" src="jscript/theme-scripts.js"></script>
+<script type="text/javascript" src="jscript/lightbox.js"></script>
+<script type="text/javascript" src="jscript/jquery-easing-1.3.js"></script>
+<script type="text/javascript" src="jscript/jquery-transit-modified.js"></script>
+<script type="text/javascript" src="jscript/layerslider.transitions.js"></script>
+<script type="text/javascript" src="jscript/layerslider.kreaturamedia.jquery.js"></script>
+<script type="text/javascript" src="jscript/jquery.flexslider.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+  jQuery('#layerslider').layerSlider({
+    skinsPath : 'skins/',
+    hoverPrevNext : true,
+    skin : 'fullwidth'
+  });
+});   
+</script>
+<script>
+  // Can also be used with $(document).ready()
+  $(window).load(function() {
+    // The slider being synced must be initialized first
+    $('#carousel').flexslider({
+      animation: "slide",
+      controlNav: false,
+      animationLoop: false,
+      slideshow: false,
+      itemWidth: 60,
+      // itemMargin: 10,
+      asNavFor: '#slider'
+    });
+   
+    $('#slider').flexslider({
+      animation: "slide",
+      controlNav: false,
+      animationLoop: false,
+      slideshow: false,
+      sync: "#carousel",
+      smoothHeight: true
+    });
+  });
+</script>
+<!-- Demo Only -->
+<!-- <script type="text/javascript" src="jscript/demo-settings.js"></script> -->

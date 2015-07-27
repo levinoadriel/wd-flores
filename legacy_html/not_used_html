@@ -1,0 +1,119 @@
+    <!-- BEGIN .horizontal-sidebar -->
+    <div class="horizontal-sidebar paragraph-row" style="display: none">
+
+      <!-- BEGIN .widget -->
+      <div class="widget column4" style="display: none">
+        <h3 class="widget-title">Featured Articles</h3>
+        <div class="w-article-block">
+
+          <div class="article">
+            <a href="#" class="article-photo left">
+              <img src="images/photos/image-4.jpg" alt="" />
+            </a>
+            <div class="article-content">
+              <h4><a href="post.html">Elit veri ad nostrum eam</a></h4>
+              <p>Vel an vide offendit, ius mazim putent qui fierent blandit intellegat putent qui fierent blandit intellegat...</p>
+              <p><a href="post.html" class="button small">View article<i class="fa fa-caret-right right"></i></a></p>
+            </div>
+          </div>
+
+          <div class="article">
+            <a href="#" class="article-photo left">
+              <img src="images/photos/image-5.jpg" alt="" />
+            </a>
+            <div class="article-content">
+              <h4><a href="post.html">Cum suscipit reprimique</a></h4>
+              <p>Vel an vide offendit, ius mazim putent qui fierent blandit intellegat putent qui fierent blandit intellegat...</p>
+              <p><a href="post.html" class="button small">View article<i class="fa fa-caret-right right"></i></a></p>
+            </div>
+          </div>
+
+        </div>
+        <!-- END .widget -->
+      </div>
+
+      <!-- BEGIN .widget -->
+      <div class="widget column4" style="display: none">
+        <h3 class="widget-title">Recent Comments</h3>
+        <div class="w-comments-block">
+
+          <div class="comment">
+            <a href="#" class="comment-photo left">
+              <img src="images/photos/avatar-1.jpg" alt="" />
+            </a>
+            <div class="comment-content">
+              <h4><a href="#">Orange-Themes</a></h4>
+              <p>Vel an vide offendit, ius mazim putent qui fierent blandit intellegat putent qui fierent blandit intellegat...</p>
+              <p><a href="post.html" class="button small">View comment<i class="fa fa-caret-right right"></i></a></p>
+            </div>
+          </div>
+
+          <div class="comment">
+            <a href="#" class="comment-photo left">
+              <img src="images/photos/avatar-1.jpg" alt="" />
+            </a>
+            <div class="comment-content">
+              <h4><a href="#">Orange-Themes</a></h4>
+              <p>Vel an vide offendit, ius mazim putent qui fierent blandit intellegat putent qui fierent blandit intellegat...</p>
+              <p><a href="post.html" class="button small">View comment<i class="fa fa-caret-right right"></i></a></p>
+            </div>
+          </div>
+
+        </div>
+        <!-- END .widget -->
+      </div>
+
+      <!-- BEGIN .widget -->
+      <div class="widget column4" style="display: none;">
+        <h3 class="widget-title">Calendar</h3>
+        <div id="calendar_wrap">
+          <table id="wp-calendar">
+            <caption>September 2013</caption>
+            <thead>
+              <tr>
+                <th scope="col" title="Monday">M</th>
+                <th scope="col" title="Tuesday">T</th>
+                <th scope="col" title="Wednesday">W</th>
+                <th scope="col" title="Thursday">T</th>
+                <th scope="col" title="Friday">F</th>
+                <th scope="col" title="Saturday">S</th>
+                <th scope="col" title="Sunday">S</th>
+              </tr>
+            </thead>
+
+            <tfoot>
+              <tr>
+                <td colspan="3" id="prev"><a href="#" title="">« Sep</a></td>
+                <td class="pad">&nbsp;</td>
+                <td colspan="3" id="next" class="pad">&nbsp;</td>
+              </tr>
+            </tfoot>
+
+            <tbody>
+              <tr>
+                <td colspan="6" class="pad">&nbsp;</td><td>1</td>
+              </tr>
+              <tr>
+                <td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td>
+              </tr>
+              <tr>
+                <td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td>
+              </tr>
+              <tr>
+                <td>16</td><td>17</td><td>18</td><td>19</td><td><a href="post.html" title="">20</a></td><td>21</td><td>22</td>
+              </tr>
+              <tr>
+                <td>23</td><td>24</td><td>25</td><td id="today">26</td><td>27</td><td>28</td><td>29</td>
+              </tr>
+              <tr>
+                <td>30</td>
+                <td class="pad" colspan="6">&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- END .widget -->
+      </div>
+
+      <!-- END .horizontal-sidebar -->
+    </div>

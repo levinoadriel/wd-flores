@@ -1,0 +1,53 @@
+- title: Pre Wedding
+  link_target: pre-wedding.html
+  big_image: images/photos/image-16.jpg
+  teaser: Mea oratio labore nostrud ut, id mel suas prima molestiae, eam placerat accommodare ad. Usu ut amet signiferumque, diceret maiestatis concludaturque ius cu. Graeci option consectetuer sea ad, pro noster mediocrem ex, at per perpetua intellegam. Ne est insolens suavitate, an agam convenire constituto pro. Ne audire partiendo definitionem pro, vix cu quidam invenire consequat, cu audire imperdiet.
+  top_row_photos:
+    - src: images/photos/image-17.jpg
+    - src: images/photos/image-18.jpg
+    - src: images/photos/image-19.jpg
+  bottom_row_photos:
+    - src: images/photos/image-21.jpg
+    - src: images/photos/image-19.jpg
+    - src: images/photos/image-20.jpg
+  photos: 
+    - src: images/photos/image-16.jpg
+      caption: Caption of an image
+    - src: images/photos/image-17.jpg
+      caption: Caption of an image
+    - src: images/photos/image-19.jpg
+      caption: Caption of an image
+    - src: images/photos/image-21.jpg
+      caption: Caption of an image
+    - src: images/photos/image-20.jpg
+      caption: Caption of an image
+    - src: images/photos/image-18.jpg
+      caption: Caption of an image
+
+- title: Preparation
+  link_target: preparation.html
+  big_image: images/photos/File1.jpeg
+  teaser: Mea oratio labore nostrud ut, id mel suas prima molestiae, eam placerat accommodare ad. Usu ut amet signiferumque, diceret maiestatis concludaturque ius cu. Graeci option consectetuer sea ad, pro noster mediocrem ex, at per perpetua intellegam. Ne est insolens suavitate, an agam convenire constituto pro. Ne audire partiendo definitionem pro, vix cu quidam invenire consequat, cu audire imperdiet.
+  top_row_photos:
+    - src: images/photos/File2.jpeg
+    - src: images/photos/File3.jpeg
+    - src: images/photos/File4.jpeg
+  bottom_row_photos:
+    - src: images/photos/File5.jpeg
+    - src: images/photos/File6.jpeg
+    - src: images/photos/File7.jpeg
+  photos: 
+    - src: images/photos/File1.jpeg
+      caption: Caption of an image
+    - src: images/photos/File2.jpeg
+      caption: Caption of an image
+    - src: images/photos/File3.jpeg
+      caption: Caption of an image
+    - src: images/photos/File4.jpeg
+      caption: Caption of an image
+    - src: images/photos/File5.jpeg
+      caption: Caption of an image
+    - src: images/photos/File6.jpeg
+      caption: Caption of an image
+    - src: images/photos/File7.jpeg
+      caption: Caption of an image

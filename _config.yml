@@ -1,0 +1,5 @@
+highlighter:  pygments
+permalink:    :title.html
+
+# Serving
+port:         4001
